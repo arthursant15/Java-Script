@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Troca de Imagem com JavaScript</title>
+</head>
+<body onload="carregar()">
+    <p id="msg">Carregando...</p>
+    <img id="imagem" src="" alt="Imagem">
+    
+    <script>
+        function carregar() {
+            var msg = document.getElementById('msg');
+            var img = document.getElementById('imagem');
+            var data = new Date();
+            var hora = data.getHours();
+            
+            msg.innerHTML = `Agora são ${hora} horas`;
+
+            if (hora >= 0 && hora < 12) {
+                // BOM DIA
+                img.src = 'imgT.png';
+            } else if (hora >= 12 && hora < 18) {
+                // BOA TARDE
+                img.src = 'imgTT.png';
+            } else {
+                // BOA NOITE
+                img.src = 'imgN.png';
+            }
+        }
+    </script>
+</body> 
+</html>

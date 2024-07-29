@@ -1,0 +1,44 @@
+/* Estilizando um input de texto simples */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #333;
+    width: 200px; /* Largura do input */
+}
+
+/* Estilizando um input de botão */
+input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilizando um input do tipo checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Estilizando um input do tipo radio */
+input[type="radio"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Estilizando um input do tipo range */
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Estilizando um input do tipo file */
+input[type="file"] {
+    /* Sua estilização personalizada para input de arquivo aqui */
+}

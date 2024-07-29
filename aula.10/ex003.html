@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de calculadora </title>
+    <style>
+        body{
+            background-color: rgba(41, 137, 78, 0.647);
+
+        }
+        h1 {
+            background-color: rgba(38, 133, 109, 0.579);
+            height: 50px;
+            width: 500px;
+            text-align: center;
+        }
+        input{
+            
+             color: #333333;
+              font-size: 20px;
+              font-family: Arial, sans-serif;
+              border: 3px solid #ccc;
+              margin: 30px;
+              border-color: rgb(23, 151, 67);
+              box-shadow: 0 0 9px rgba(240, 244, 241, 0.967);
+              text-align: left;
+        }        
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>CALCULE SOMA </h1>
+    <input type="number" name="nm1" id="nm1">+
+    <input type="number" name="nm2" id="nm2">=
+    <input type="button" value="OK" onclick="soma()">
+    <div id="rep">
+    </div>
+    
+    
+    <script>
+        function soma(){
+            var nnm1 = document.getElementById('nm1')
+            var nnm2 = document.getElementById('nm2')
+            var res = document.getElementById('rep')
+            var n1 = Number(nnm1.value)
+            var n2 = Number(nnm2.value)
+            var r = n1+n2
+            res.innerHTML = (r)
+            
+
+        }
+    </script>
+
+</body>
+</html>

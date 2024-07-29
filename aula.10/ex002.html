@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="py-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores</title>
+    <style>
+       body{
+            background-color: rgba(91, 26, 10, 0.493);
+       }
+
+       input{
+        font-size: 18pt;
+        width: 100px;
+        text-align: center;
+        }
+       
+        p{
+            color: aliceblue;
+            background-color: rgba(187, 188, 209, 0.438);
+            font-size: 40px;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+        }
+        div{
+            font-size: 30pt;
+            text-align: center;
+            color: cornsilk;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Somando valores</p>
+    <img src="eu-sabo-muito-v0-xj4v23f4dxwa1.jpg" alt="">
+    <input type="number" name="nm1" id="nm1">+
+    <input type="number" name="nm2" id="nm2">
+    <input type="button" value="Ok" onclick="somar()">
+    <div id="res">Resultado</div>
+    <script>
+        function somar() {
+            var nnm1 = document.getElementById ('nm1')
+            var nnm2 = document.getElementById ('nm2')
+            var res = document.getElementById ('res')
+            var n1 = Number (nnm1.value)
+            var n2 = Number (nnm2.value)
+            var s = n1 + n2 
+            res.innerHTML = ("O resultado da soma entre " + n1+" e " +n2+" é: "+s)
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE DE ESTRANGEIRO</title>
+    <STYle>
+       
+            body{
+                background-color: beige;
+            }
+            h1{
+                background-color: bisque;
+                width: 500px;
+                text-align: center;
+            }
+            p{
+                font-size: 18pt ;
+                
+            }
+            input{
+                font-size: 18pt;
+                text-align: center;
+                width: 200px;
+            }
+    </STYle>
+</head>
+<body>
+    <h1><STrong>VOCÊ É ESTRANGEIRO?</STrong></h1>
+    <p>Que país você é? </p>
+    <input type="text" name="pai" id="pai">
+    <input type="button" value="Ok " onclick="pesquisar ()">
+    <div id="estr">
+
+    </div>
+    <script>
+        function pesquisar(){
+            var pa = document.getElementById('pai').value;
+            var p = document.getElementById('estr')
+            p.innerHTML = (`Você é do país: <strong>${pa}</strong>`)
+            if (pa == 'Brasil'){
+                p.innerHTML += ('<p>Você é meu irmão Brasileiro =)</p>')
+            }else{
+                p.innerHTML += ('<p>Você é um intrusooo!! =/</p>')
+            }
+
+            
+        }
+    </script>
+</body>
+</html>

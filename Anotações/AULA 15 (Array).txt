@@ -1,0 +1,37 @@
+- O que é array no js?
+
+	A variável composta ou array como é chamada em java script, em sua definição seria como ela fosse um bloco vazio de dado em que se pode colocar nela não só um mas, mais de um dado nela como por exemplo um programa para uma correção de alguma prova por exemplo já que em uma sala de aula normalmente não exista apenas uma pessoa nela podendo assim adicionar mais de um valor a uma variável só como de notas por exemplo.
+
+- Como que podemos usar ela no js?
+
+	podemos usar o array como uma variável normal a principal diferença é ao adicionar os números não é só fazer a variável receber como por exemplo:
+let nome da variável = 6 "por exemplo"
+	mas sim
+let nome da variável = [5,4,3,2] "por exemplo"
+
+-E para mostrar na tela como que faz?
+	
+	Simples, existe varias maneiras dentre elas a primeira está abaixo:
+1° console.log(num[0])
+   console.log(num[1])
+   console.log(num[2])
+   console.log(num[3])
+   console.log(num[4])
+	
+	mas essa maneira parece ser muito cansativo né? mas para a nossa salvação existe outras mais fáceis para que possamos aplicar em array vejamos:
+2° for(let posicao=0;posicao<num.length;posicao++){
+	console.log(num[posicao])
+}
+
+	viu só! nessa maneira de se fazer um array basta você usar uma estrutura de repetição o 'for' no caso, e logo em seguida se cria a variável posição na estrutura for para primeiro inicialização em seguida essa variável tem que ser menor do que o comprimento de num que é o vetor, e em seguida basta colocar posicao++ que seria para adicionar um a cada volta na variável posicao.
+	
+	Caramba muito easy né possível que não tenha como ficar mais fácil! =)
+
+	É ai que você se engana meu chapa, tem como sim =O ,se liga aqui em baixo
+
+3° for(let posicao in num){
+	console.log(num[posicao])
+}
+	Nessa maneira de fazer é bem mais simples que a anterior né? pois é nela você simplesmente vai colocar o 'for' e em seguida vai declarar a variável posicao por exemplo e em seguida você adiciona o in que em português quer dizer 'em', e logo em seguida você coloca o vetor num e executa para mostrar na tela do seu node js colocando assim: num[posicao].
+
+

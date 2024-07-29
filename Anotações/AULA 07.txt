@@ -1,0 +1,18 @@
+- OPERADORES ARITMETICOS 
+
+	. + -> Adição 
+	. - -> Subtração
+	. * -> Multiplicação 
+ 	. / -> Divisão
+	. % -> Resto da divisão
+	. ** -> Potência 
+
+- ORDEM DE PRECEDÊNCIA (ORDEM DE REALIZAR A CONTA)
+	
+	1° () -> Parênteses 
+	2° ** -> Potência 
+	3° *, /, % -> Multiplicação, Divisão e o Resto
+	4° +, - => Adição e Subtração 
+	
+OBS: Da esquerda para a direita, caso algum deles caiam na mesma equação.
+

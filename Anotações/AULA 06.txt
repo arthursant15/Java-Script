@@ -1,0 +1,26 @@
+STRING: nome = variável!
+
+	. document.write -> Escrever na tela. 
+	
+	. <strong> nome </strong> -> Deixar toda a letra em negrito, associação de Strong com color Strong, ou 	seja, 	cor forte/escura/preta.
+	
+	  
+	. nome.toLowerCase() -> É usada para que todas as letras da variável nome fiquem minúsculas 
+	
+	. nome.length -> É usada para ver quantas letras a variável nome possui
+	
+	. nome.toUpperCase() -> É usada para que todas as letras da variável nome fiquem maiúsculas 
+
+
+	NUMBRER: n1 = variável 
+
+	. var n1 = Number (window.prompt('Digite um número: ')) -> variável n1 vai receber o numero digitado, e o 	Number é para tipificar de String para Number. 
+	
+	. n1.toFixed(2) -> Para fixar em 2 casas decimais, ou depreendendo de quanto você coloca para ele ficar 
+
+	. n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'}) -> É usado para a conversão de moeda 	como está no exemplo em que se é convertido 	para o real.
+	
+	. USD -> Moedas dos EUA 
+	. EUR -> Moedas da União Europeia
+
+ 

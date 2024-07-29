@@ -1,0 +1,49 @@
+header{
+    background-color: rgba(10, 172, 121, 0.886);
+    height: 40px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+body{
+    background:url("math-curriculum.webp") ;
+    margin-top: 100px;
+    background-size: 100%;
+}
+section{
+    background-color: aliceblue;
+    height: 230px;
+    width: 450px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 9px 5px rgb(66, 122, 95) ;
+
+}
+div{
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+#start{
+    margin-top: 20px;
+    border-color: darkblue;
+    border-style: outset;
+}
+#end{
+    border-color:darkred;
+    border-style: outset;
+    margin: auto;
+    margin-left: 20px;
+}
+#pass{
+    border-color: darkgreen;
+    border-style: outset;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    margin: 100px;
+}

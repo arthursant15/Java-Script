@@ -1,0 +1,5 @@
+-var img = document.createElement('img') = a variável img recebe criar um novo elemento/ tag no html, a tag img. 
+
+-img.setAttribute('id', 'foto') = a variável img criada anteriormente vai receber um novo atributo que é uma identificação ou seja um "id", que vai se chamar "foto".
+
+-var fsex = document.getElementsByName('radsex') = nessa a variável "fsex" recebeu um name da parte do html que está no imput, ou seja é uma das opções disponíveis de marcar podendo ser ou [0] ou [1], masculino e feminino, respectivamente. 
